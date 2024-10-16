@@ -38,6 +38,10 @@ make
 	
 - `/res` : Contains project resources (fonts, shaders, textures)
 
+## For contributors
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ## To-do:
 - Improve build system to support more platforms.
 - Make UI system more  flexible, remove hardcoded positions/sizes.
