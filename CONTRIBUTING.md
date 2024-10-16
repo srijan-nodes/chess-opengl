@@ -1,4 +1,4 @@
-# Participiant: How to Contribute
+# Participant: How to Contribute
 
 1. **Visit the HackNight 6.0 Leaderboard**:
    Browse the leaderboard and choose a repository you'd like to contribute to!
@@ -12,12 +12,26 @@
 
    ```bash
    git clone git@github.com:your-username/chess-opengl.git
+   cd chess-opengl
    ```
 
-4. **Make Your Changes**
-   After cloning and setting up your branch, make the necessary changes to the code in your IDE.
+4. **Build project**:
+   > *Note*: The Makefile provided currently works only on Windows with MSYS2/MinGW. Building on other platforms will require tweaking it.
 
-5. **Commit and Push**:
+   - **Prerequisites**:  gcc, make
+   - Build project using make
+   ```bash
+   make
+   ```
+   - Run
+   ```
+   "./build/chess"
+   ```
+   
+5. **Make Your Changes**
+   After you've setup the project, make the necessary changes to the code in your IDE. The directory structure is provided in [README.md](README.md).
+
+6. **Commit and Push**:
    Commit your changes and push them to your fork:
 
    ```bash
@@ -27,11 +41,11 @@
 
    Alternatively, use VSCode's inbuilt Git source control pane `Ctrl+Shift+G` if you're uncomfortable with a CLI
 
-6. **Submit a Pull Request**:
+7. **Submit a Pull Request**:
    After pushing your changes, open a pull request to pull changes from your fork to the original repository.
 
-7. **Get Feedback**
+8. **Get Feedback**
    Wait for a maintainer to review your pull request (PR) and provide feedback.
 
-8. **Gain Bounty Points**
+9. **Gain Bounty Points**
    If everything is approved, your issue will be closed, and you'll gain bounty points on the leaderboard!

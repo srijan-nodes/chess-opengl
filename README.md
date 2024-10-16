@@ -12,7 +12,12 @@ Fully functional chess game written using C and OpenGL with minimal external lib
 - Interact with pieces by clicking or dragging.
 - Piece movement animations
 
+## For contributors:
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ## Building:
+
 **Note**: The provided Makefile currently only works on Windows. Has been tested with MSYS2/MinGW. Provided libraries in `/lib` are for Windows  x64  MinGW.
 
 - Clone this repository
@@ -37,10 +42,6 @@ make
 	- `main.c` : Entry point
 	
 - `/res` : Contains project resources (fonts, shaders, textures)
-
-## For contributors
-
-Read [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## To-do:
 - Improve build system to support more platforms.
